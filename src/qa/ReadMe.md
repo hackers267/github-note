@@ -14,3 +14,8 @@
 * resolve
 * resolves
 * resolved
+
+## 如何查看一个创建的大小
+
+如果我们要在github上查看某个仓库的大小，可以通过api的形式查看：`https://api/github.com/repos/{user}/{repo}`，把其中的`user`和`repo`替换为仓库的user和repo就行。
+返回值是一个`Json`。其中的`size`字段就是其仓库的大小，其单位为`kb`。
